@@ -1,4 +1,3 @@
-# AM-IHF: Adaptive Task Allocation with Implicit Human Feedback
 
 **AM-IHF** is an open-source framework designed for adaptive task allocation in **spatial crowdsourcing (SC)**. It integrates **reinforcement learning (RL)**, **Carla-based simulation**, and the **CrowHITL system** with human-in-the-loop mechanisms.
 
