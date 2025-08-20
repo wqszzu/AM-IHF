@@ -2,31 +2,31 @@
 
 **AM-IHF** is an open-source framework designed for adaptive task allocation in **spatial crowdsourcing (SC)**. It integrates **reinforcement learning (RL)**, **Carla-based simulation**, and the **CrowHITL system** with human-in-the-loop mechanisms.
 
----
+--
 
 ## 📂 Project Structure
 
-- **RL/**  
+- `RL/`  
   Contains RL algorithms, environments, and training scripts (e.g., `run_XXX.py`).
-- **carla/**  
+- `carla/`  
   Configuration files and driving algorithms for the **Carla simulator**.
-- **system/**  
+- `system/`  
   Implementation of the **CrowHITL system** (visualization, HITL modules, configs).
-- **util/**  
+- `util/`  
   Utility functions for data preprocessing and computational tools.
-- **enable_sim_env.py**  
+- `enable_sim_env.py`  
   Script for launching the Carla simulation environment.
 
----
+--
 
 ## 🔧 Requirements
 
 Make sure you are using **Python 3.7** and install the following dependencies:
 
 ```bash
-python==3.7
 carla==0.9.15
 networkx==2.6.3
+torch>=1.13.1
 dash>=1.0.2
 dash-bootstrap-components==1.2.1
 dash-daq==0.1.7
@@ -52,7 +52,7 @@ Wait until the Carla simulation interface appears.
 
 ### 2️⃣ Launch RL Training and CrowHITL
 
-Navigate to the **RL/** folder and select the RL algorithm you want to run. For example:
+Navigate to the `RL/` folder and select the RL algorithm you want to run. For example:
 
 ```bash
 python run_DQN.py
