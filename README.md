@@ -2,7 +2,6 @@
 
 **AM-IHF** is an open-source framework designed for adaptive task allocation in **spatial crowdsourcing (SC)**. It integrates **reinforcement learning (RL)**, **Carla-based simulation**, and the **CrowHITL system** with human-in-the-loop mechanisms.
 
---
 
 ## 📂 Project Structure
 
@@ -17,7 +16,6 @@
 - `enable_sim_env.py`  
   Script for launching the Carla simulation environment.
 
---
 
 ## 🔧 Requirements
 
@@ -33,8 +31,6 @@ dash-daq==0.1.7
 numpy>=1.16.2
 pandas>=0.24.2
 ```
-
----
 
 ## 🚀 Getting Started
 
